@@ -103,14 +103,14 @@ const Navbar = () => {
               isActive={activePage === "Services"}
               onClick={(e)=>handleNavLinkClick(e,"Services")}
             >
-              Services
+              Work Experience
             </NavLink>
             <NavLink
               href="#"
               isActive={activePage === "Contact"}
               onClick={(e)=>handleNavLinkClick(e,"Contact")}
             >
-              Contact
+              Projects
             </NavLink>
           </ul>
         </div>
