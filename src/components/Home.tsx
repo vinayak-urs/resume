@@ -32,7 +32,7 @@ const IntroText = () => (
 const Buttons = () => (
   <div className="block mt-8 md:mt-0 md:flex gap-3">
     <Button
-      href="https://www.notion.so/abdulbayees/Abdul-Bayees-1309a4bea3a1497babf8f5442ed68585"
+      href="https://drive.google.com/file/d/1VMzStprd4MBAA6sarmVLkp0_t_sA_TRn/view?usp=sharing"
       className="text-white dark:text-black bg-black dark:bg-white mt-4 md:mt-10 md:w-max w-full"
     >
       <ResumeIcon />
