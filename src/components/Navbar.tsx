@@ -62,7 +62,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-transparent">
-      <div className="max-w-screen-xl items-center flex flex-wrap justify-between mx-auto p-4">
+      <div className="max-w-screen-xl items-center flex flex-wrap justify-between  p-4">
         <a
           href="#"
           className="items-center md:flex gap-3 font-bold lg:font-bold text-sky-400 hover:cursor-pointer text-xl lg:text-2xl"

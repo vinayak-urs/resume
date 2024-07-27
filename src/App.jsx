@@ -16,7 +16,7 @@ sm:px-0 md:px-[10vw] 2xl:px-[20vw] bg-white/95 supports-backdrop-blur:bg-white/6
 
 function App() {
   return (
-    <div className="dark:bg-[#1f2028] bg-white antialiased min-h-screen flex flex-col transition-all duration-900 bg-white dark:bg-[#1f2028] min-h-lvh">
+    <div className="flex-auto pt-12 min-w-0 md:mt-0 flex bg-transparent flex-col md:pt-12 mx-[6vw] md:mx-[10vw] 2xl:mx-[20vw]  dark:bg-[#1f2028] bg-white antialiased min-h-screen flex flex-col transition-all duration-900 bg-white dark:bg-[#1f2028] min-h-lvh">
       <CustomNavbar />
       <HomeSection />
       <CustomCursor />
