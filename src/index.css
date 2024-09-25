@@ -34,3 +34,10 @@
     height: 100%;
     mix-blend-mode: multiply;
   }
+
+  .great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

@@ -8,7 +8,10 @@ export default {
     extend: {
       animation: {
         'spin-slow': 'spin 3s linear infinite',
-      }
+      },
+      padding: {
+        '40vh': '40vh',
+    },
     },
   },
   plugins: [],

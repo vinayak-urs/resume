@@ -13,7 +13,7 @@ const Button = ({ href, children, className }) => (
 
 const HomeSection = () => {
   return (
-    <div className="p-4 mt-12 pt-2 md:pt-6 md:mt-36 bg-transparent md:flex md:flex-col md:items-center" id="home">
+    <div className="p-4 pt-40vh px-10 bg-[#1f2028] h-dvh  md:flex md:flex-col md:items-center" id="home">
       <IntroText />
       <Buttons />
     </div>
@@ -21,7 +21,7 @@ const HomeSection = () => {
 };
 
 const IntroText = () => (
-  <p className="text-4xl md:text-7xl text-slate-900 dark:text-white md:text-center font-bold leading-tight mt-4">
+  <p className=" pt-4 text-4xl md:text-7xl text-slate-900 dark:text-white md:text-center font-bold leading-tight mt-4">
     <span className="dark:text-white text-gray-600">Hello I'm </span>
     <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-600"> Vinayak </span>
     <span className="dark:text-white text-gray-600"> and I'm a </span>
